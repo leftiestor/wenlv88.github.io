@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>wenlv88's world</title>
+		<style type="text/css">
+			html,body{
+				width: 100%;
+				height: 100%;
+				background-color:#232323;
+				overflow-x: hidden;
+			}
+			.prev{
+				width: 100%;
+				height: 100%;
+				position: relative;
+			}
+			.prev h1{
+				width: 70%;
+				text-align: center;
+				color: white;
+				line-height: 70px;
+				border-radius: 30px;
+				border-top:4px solid navajowhite;
+				border-bottom:4px solid navajowhite;
+				position: relative;
+				top: 50%;
+				margin: -30px auto;
+				cursor: pointer;
+			}
+			.prev .discr{
+				width: 100%;
+				color: #d8d8d8;
+				font-size: 16px;
+				text-align: center;
+			}
+			.footer{
+				width: 100%;
+				height: 100px;
+				position: absolute;
+				bottom: 0;
+				text-align: center;
+				line-height: 100px;
+				color: #555;
+				font-size: 14px;
+				box-sizing: border-box;
+				padding-right: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="prev">
+			<h1 id="world">welcome to my world</h1>
+			<p class="discr">Loading……</p>
+		
+			<footer class="footer">
+				<div class="worker">—— Lv Wen ——</div>
+			</footer>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js" ></script>
+	<script type="text/javascript">
+		$('#world').click(function(){
+			window.open('introduce.html','_self');
+		})
+	</script>
+</html>
